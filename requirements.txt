@@ -33,3 +33,4 @@ pydateinfer==0.3.0
 pyarrow >= 9.0.0, < 10.0.0
 dataprep_ml
 grpcio-tools
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
