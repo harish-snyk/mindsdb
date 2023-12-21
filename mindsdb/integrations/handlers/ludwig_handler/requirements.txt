@@ -1,7 +1,8 @@
 ludwig[distributed]>=0.5.2
-ray<=1.13.0
+ray<=2.8.1
 mindsdb>=22.10.2.1
 mindsdb_sql >= 0.4.4,<0.5.0
 hyperopt
 dill
 dask
+transformers>=4.36.0 # not directly required, pinned by Snyk to avoid a vulnerability
