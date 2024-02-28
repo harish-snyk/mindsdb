@@ -2,3 +2,5 @@ mindsdb>=22.12.4.3
 mindsdb_sql >= 0.4.6, < 0.5.0
 pandas
 openai
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
